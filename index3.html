@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>פורום</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="papar14">
+
+   
+    <section>
+        <form action="index2.html" novalidate>
+            <fieldset>
+                <legend>
+                    <h1>לרישום לפורום של נטפרי:</h1>
+                </legend>
+
+                <label class="pratim">שם פרטי</label> <input type="text" name="firstname" placeholder="שם פרטי"
+                    required minlength="2">
+                <span class="error">שדה חובה, אמור לכלול 2 תווים לפחות</span><br>
+                <label class="pratim">שם משפחה</label> <input type="text" name="lastname" placeholder="שם משפחה"
+                    required minlength="2">
+                <span class="error">שדה חובה, אמור לכלול 2 תווים לפחות</span><br>
+                <label class="pratim">מין</label><br>
+                <input type="radio" name="mean" value="nekeva" checked /><label for="">נקבה</label><br>
+                <input type="radio" name="mean" value="zachar"><label for="">זכר</label><br>
+                <label class="pratim">עיר</label><input type="text" name="city"><br>
+
+
+
+                <label class="pratim">טלפון</label> <input type="tel" name="phone" placeholder="הקש  מס' טלפון">
+                <span class="error">שדה חובה, אמור לכלול 9 תווים לפחות</span><br>
+                <label class="pratim">כתובת מייל</label><input type="email" name="email"
+                    placeholder="הזן כתובת מייל"><br>
+                <label class="pratim">הערות</label>
+                <textarea name="eara" cols="25" rows="2"></textarea><br>
+                <label class="pratim">איך ברצונך לקבל עידכונים והודעות?</label><br>
+                <input type="radio" name="news" value="meal" checked /><label for="">מייל</label><br>
+                <input type="radio" name="news" value="pone"><label for="">טלפון</label><br>
+                <input type="radio" name="news" value="sms"><label for="">SMS</label><br>
+
+                <button  type="submit" class="pratim">לרישום לפורום </button>
+                <button type="reset" class="pratim">למחיקה </button>
+            </fieldset>
+        </form>
+    </section> </div>
+</body>
+</html>
